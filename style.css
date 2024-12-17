@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Styles applied to the entire document */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+  /* Styles for the header section */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Layout and styling for the main content area */
+main {
+  display: flex;
+  margin: 2rem;
+}
+
+/* Container for the title and its icon */
+.title-container {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+/* Styling for the icon in the title container */
+.title-container img {
+  width: 40px; 
+  height: 40px; 
+  margin-right: 10px; 
+}
+
+/* Styles for the movie details card */
+#movie-details {
+  flex: 3;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 2rem;
+}
+
+/* Styling for images in the movie details section */
+#movie-details img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+/* Styles for the 'Buy Ticket' button */
+#buy-ticket {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for the 'Buy Ticket' button */
+#buy-ticket:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the 'Buy Ticket' button when tickets are sold out */
+#buy-ticket.sold-out {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Styles for the movie menu section */
+#movie-menu {
+  flex: 1;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Styles for the movie list container */
+#movies-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Styles for individual movie list items */
+#movies-list li {
+  padding: 0.5rem 0;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styles for movie list items marked as sold out */
+#movies-list li.sold-out {
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Hover effect for movie list items */
+#movies-list li:hover {
+  background-color: #f0f0f0; 
+  color: #007BFF; 
+  font-weight: bold;
+}
+
+/* Styles for movie posters */
+#poster{
+  width: 100%; 
+  max-width: 700px; 
+  max-height: 800px; 
+  object-fit: contain; 
+  border-radius: 8px; 
+}
