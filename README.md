@@ -107,19 +107,19 @@ Request Body:
 ##Development Process 
 Core Steps
 
-Setup Project Environment
+1.Setup Project Environment
         Created a GitHub repository and set up JSON server.
 
-Fetch Data from JSON Server
+2.Fetch Data from JSON Server
         Implemented GET requests to display movies and their details.
 
-Dynamic DOM Updates
+3.Dynamic DOM Updates
         Populated the movie menu and updated movie details dynamically.
 
-Event Handling
+4.Event Handling
         Implemented ticket purchase logic and disabled buying tickets for sold-out movies.
 
-Bonus Features
+5.Bonus Features
         Added sold-out indicators and persisted changes to the server.
 
 
