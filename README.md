@@ -69,19 +69,19 @@ Get All Movies
 GET /films
 Example Response:
 
-[
- {
-      "id": 1,
-      "title": "The Wolf of Wall Street",
-      "year": 2013,
-      "runtime": 180,
-      "capacity": 30,
-      "showtime": "04:00PM",
-      "tickets_sold": 24,
-      "description": "In 1987, Jordan Belfort takes an entry-level job at a Wall Street brokerage firm. By the early 1990s, while still in his 20s...",
-      "poster": "./images/wolf-of-wall-street.webp"
-    }
-]
+        [
+        {
+            "id": 1,
+            "title": "The Wolf of Wall Street",
+            "year": 2013,
+            "runtime": 180,
+            "capacity": 30,
+            "showtime": "04:00PM",
+            "tickets_sold": 24,
+            "description": "In 1987, Jordan Belfort takes an entry-level job at a Wall Street brokerage firm. By the early 1990s, while still in his 20s...",
+            "poster": "./images/wolf-of-wall-street.webp"
+            }
+        ]
 
 Get Movie by ID
 GET /films/:id
