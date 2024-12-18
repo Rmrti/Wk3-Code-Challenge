@@ -1,7 +1,7 @@
 {
   "films": [
     {
-      "id": 1,
+      "id": "1",
       "title": "The Wolf of Wall Street",
       "year": 2013,
       "runtime": 180,
@@ -12,7 +12,7 @@
       "poster": "./images/wolf-of-wall-street.webp"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "The Equalizer 3",
       "year": 2023,
       "runtime": 109,
@@ -23,7 +23,7 @@
       "poster": "./images/equalizer-3.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Kraven the Hunter",
       "year": 2024,
       "runtime": 127,
@@ -34,7 +34,7 @@
       "poster": "./images/kraven-the-hunter.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Moana 2",
       "year": 2024,
       "runtime": 100,
@@ -45,7 +45,7 @@
       "poster": "./images/moana-2.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Red One",
       "year": 2024,
       "runtime": 123,
@@ -56,7 +56,7 @@
       "poster": "./images/red-one.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "The Dictator",
       "year": 2024,
       "runtime": 83,
@@ -161,7 +161,7 @@
       "runtime": "99",
       "capacity": 40,
       "showtime": "07:30PM",
-      "tickets_sold": 23,
+      "tickets_sold": 24,
       "description": "A saboteur posing as a scientist strives to destroy the world's first space station.",
       "poster": "https://www.gstatic.com/tv/thumb/v22vodart/46755/p46755_v_v8_aa.jpg"
     },

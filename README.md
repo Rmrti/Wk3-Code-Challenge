@@ -30,8 +30,8 @@ Flatdango is a web application for Flatiron Movie Theater, allowing users to vie
 
 1.Clone the Repository
 
-        git clone <repository-url>
-        cd flatdango
+        git clone <git@github.com:Rmrti/Wk3-Code-Challenge.git>
+        cd Wk3-Code-Challenge
 
 2.Install JSON Server
 Ensure you have Node.js installed. Then, install json-server globally:
