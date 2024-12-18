@@ -101,7 +101,7 @@ Request Body:
 
     index.html: The main HTML structure for the application.
     style.css: Contains all the styling for the application.
-    script.js: Handles DOM manipulation, event listeners, and server communication.
+    index.js: Handles DOM manipulation, event listeners, and server communication.
     db.json: Local server database containing movie data.
 
 ##Development Process 
